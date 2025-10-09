@@ -7,7 +7,7 @@ public class Show {
     protected Director director;
     protected HashMap<String, Actor> listOfActors;
 
-    public Show (String title, int duration) {
+    public Show(String title, int duration) {
         this.title = title;
         this.duration = duration;
         listOfActors = new HashMap<>();

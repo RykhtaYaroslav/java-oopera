@@ -1,9 +1,9 @@
 import java.util.Objects;
 
-public class Actor extends  Person {
+public class Actor extends Person {
     private final int height;
 
-    public Actor (String name, String surname, Sex sex,  int height) {
+    public Actor(String name, String surname, Sex sex, int height) {
         super(name, surname, sex);
         this.height = height;
     }
@@ -24,20 +24,4 @@ public class Actor extends  Person {
     public String toString() {
         return "Актёр " + name + " " + surname + " (пол: " + sex + ", рост: " + height + ")";
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
